@@ -1,0 +1,14 @@
+{
+  "head": [
+    "inactive"
+  ],
+  "body": [
+    "forward_backward"
+  ],
+  "hands": [
+    "circular_motion"
+  ],
+  "legs": [
+    "by_rhythm"
+  ]
+}

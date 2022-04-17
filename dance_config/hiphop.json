@@ -1,0 +1,14 @@
+{
+  "head": [
+    "forward_backward"
+  ],
+  "body": [
+    "forward_backward"
+  ],
+  "hands": [
+    "bent_elbows"
+  ],
+  "legs": [
+    "half_squat"
+  ]
+}
