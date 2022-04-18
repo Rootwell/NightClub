@@ -1,7 +1,6 @@
 <?php
 
 use App\DanceFloor;
-use Behavior\ElectroDance;
 use Behavior\Hiphop;
 use Behavior\House;
 use Behavior\Pop as PopDance;

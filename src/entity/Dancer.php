@@ -3,9 +3,9 @@
 namespace Entity;
 
 use App\DanceFloor;
+use Behavior\DanceAction;
 use Behavior\DrinkAction;
 use Behavior\NightClubAction;
-use Behavior\DanceAction;
 use SplObjectStorage;
 use SplObserver;
 use SplSubject;

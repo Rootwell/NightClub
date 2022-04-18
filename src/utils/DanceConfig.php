@@ -3,14 +3,13 @@
 namespace Utils;
 
 use Behavior\ElectroDance;
+use Behavior\Hiphop;
 use Behavior\House;
 use Behavior\Pop as PopDance;
+use Behavior\RAndB as RAndBDance;
 use Entity\Music\Electrohouse;
 use Entity\Music\Pop;
 use Entity\Music\RAndB;
-use Behavior\Hiphop;
-use Behavior\RAndB as RAndBDance;
-use SplObjectStorage;
 
 class DanceConfig
 {

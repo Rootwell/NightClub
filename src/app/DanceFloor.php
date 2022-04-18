@@ -49,7 +49,8 @@ class DanceFloor implements SplSubject
         return $this->currentMusic;
     }
 
-    public function startParty() {
+    public function startParty()
+    {
         /** @var Music $music */
         foreach ($this->musicList as $music) {
             $this->currentMusic = $music;

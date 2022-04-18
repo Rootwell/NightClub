@@ -2,7 +2,6 @@
 
 namespace Behavior;
 
-use SplObjectStorage;
 use Utils\DanceConfig;
 
 abstract class DanceAction implements NightClubAction
@@ -10,7 +9,8 @@ abstract class DanceAction implements NightClubAction
     protected string $styleName;
     protected array $danceElements = [];
 
-    public function getDanceDescription(): string {
+    public function getDanceDescription(): string
+    {
         $result = '';
         foreach ($this->danceElements as $bodyPart => $actions) {
             $result .= $bodyPart . ': ';
@@ -22,7 +22,8 @@ abstract class DanceAction implements NightClubAction
         return $result;
     }
 
-    public function getDancingInfo(): string {
+    public function getDancingInfo(): string
+    {
         return 'Dancing ' . $this->styleName . PHP_EOL . $this->getDanceDescription();
     }
 
